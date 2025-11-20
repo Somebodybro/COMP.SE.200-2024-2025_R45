@@ -1,5 +1,12 @@
 import filter from "../src/filter.js"
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(filter(1, 2)).toBe(3);
+test('Filters so that only barney is returned', () => {
+   const users = [
+   { 'user': 'barney', 'active': true },
+   { 'user': 'fred',   'active': false }
+  ]
+
+  expect(filter(users, ({ active }) => active)).toStrictEqual([{
+    'user': 'barney', 'active': true
+  }]);
 });
