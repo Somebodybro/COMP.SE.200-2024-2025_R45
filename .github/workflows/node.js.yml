@@ -30,6 +30,7 @@ jobs:
         npm install
         npm run test-coverage
     - name: Coveralls
+      if: success() || failure()
       uses: coverallsapp/github-action@v2
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
