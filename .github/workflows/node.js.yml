@@ -28,7 +28,7 @@ jobs:
     - name: npm install, make test-coverage
       run: |
         npm install
-        npm run test-coverage
+        npm run coverage
     - name: Coveralls
       if: success() || failure()
       uses: coverallsapp/github-action@v2
