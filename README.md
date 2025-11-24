@@ -1,5 +1,5 @@
 # Student template
-
+[![Coverage Status](https://coveralls.io/repos/github/Somebodybro/COMP.SE.200-2024-2025_R45/badge.svg?branch=main)](https://coveralls.io/github/Somebodybro/COMP.SE.200-2024-2025_R45?branch=main)
 ## Purpose of this repository
 
 This is a project template for students participating in Software Testing course
