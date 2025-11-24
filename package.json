@@ -10,6 +10,9 @@
   },
   "jest": {
     "testEnvironment": "node",
+    "collectCoverageFrom": [
+    "**/src/*.{js,jsx}"
+    ],
     "coveragePathIgnorePatterns": [
       "/node_modules/"
     ],
